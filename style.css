@@ -116,7 +116,7 @@ header {
 
 .items3 {
   grid-column: 2 / 5;
-  grid-row: 13 / 20;
+  grid-row: 13 / 22;
   display: flex;
   flex-direction: row;
   background-color: var(--color-3);
@@ -132,17 +132,103 @@ header {
   margin: 0 auto;
   text-align: center;
   align-self: stretch;
-  margin-top: 20px;
+  margin-top: 60px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   width: 100%;
 }
 
 .items3a i{
   font-size: 2rem;
+  color: var(--color-1);
+}
+
+
+/*---------------------------------------------- Section4------------------*/
+
+.items4 {
+  grid-column: 2 / 5;
+  grid-row: 24 / 30;
+  background-color: var(--color-3);
+  text-align: center;
+  width: 900px;
+}
+
+.items4 h2{
+  font-size: 2rem;
+  font-family: var(--font-2);
+}
+
+.project {
+width: 150px;
+height: 100px;
+margin-left: 70px;
+margin-right: 70px;
+margin-bottom: 40px;
+border-radius: 20px;
+}
+
+.items4a {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.items4 p{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.items4 p a{
+  text-decoration: none;
+  color: var(--color-2);
+  }
+
+.items4 p a:hover{
+text-decoration: none;
+color: var(--color-1);
+}
+
+
+/*---------------------------------------------- Section5------------------*/
+
+.items5 {
+  grid-column: 2 / 5;
+  grid-row: 24 / 30;
+  background-color: var(--color-3);
+  text-align: center;
+  width: 900px;
+}
+
+.items5 h2{
+  font-size: 2rem;
+  font-family: var(--font-2);
+}
+
+.stack {
+width: 150px;
+height: 100px;
+margin-left: 70px;
+margin-right: 70px;
+margin-bottom: 40px;
+border-radius: 20px;
+}
+
+.items5a {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 
 
 
 
+
+
+
+/*---------------------------------------------- Section5------------------*/
 
