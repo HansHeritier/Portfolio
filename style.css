@@ -68,7 +68,7 @@ header {
 }
 
 .profil {
-  border-radius: 70px;
+  border-radius: 30px;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
@@ -257,12 +257,86 @@ margin: 20px;
   
 }
 
+/*---------------------------------------------- Section6------------------*/
+
+.items6 {
+  grid-column: 1 / 15;
+  grid-row: 50 / 58;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-2);
+  color: var(--color-3);
+}
+
+
+.items6 h2{
+  font-family: var(--font-2);
+  font-size: 2rem;
+}
+
+.items6 p{
+  font-family: var(--font-2);
+  font-size: 1.2rem;
+  padding-bottom: 50px;
+  
+}
+
+
+/*---------------------------------------------- Section7------------------*/
+
+.items7 {
+  grid-column: 2 / 14;
+  grid-row: 56 / 62;
+  background-color: transparent;
+  text-align: center;
+  margin: 10px;
+}
+
+
+.figma {
+width: 350px;
+height: 230px;
+margin-bottom: 40px;
+border-radius: 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.items7a {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly ;
+  
+}
+
+/*---------------------------------------------- Section8------------------*/
+
+.items8 {
+  grid-column: 2 / 14;
+  grid-row: 62 / 68;
+  background-color: transparent;
+  text-align: center;
+}
+
+
+.iframe {
+border-radius: 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.items8a {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly ;
+  
+}
 
 
 
 
-
-
-
-/*---------------------------------------------- Section5------------------*/
 
