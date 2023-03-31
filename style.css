@@ -102,13 +102,13 @@ header {
 
 .items2 h2{
   font-family: var(--font-2);
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .items2 p{
   font-family: var(--font-2);
-  font-size: 1rem;
-  margin: 0 auto;
+  font-size: 1.2rem;
+  padding-bottom: 50px;
   
 }
 
@@ -116,13 +116,13 @@ header {
 
 .items3 {
   grid-column: 2 / 14;
-  grid-row: 13 / 22;
+  grid-row: 13 / 24;
   display: flex;
   flex-direction: row;
   background-color: var(--color-3);
   border-radius: 5px;
   z-index: 2;
-  box-shadow: var(--color-2) 0px 3px 3px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 
@@ -138,8 +138,21 @@ header {
 }
 
 .items3a i{
-  font-size: 2rem;
+  font-size: 3rem;
+  margin: 20px;
   color: var(--color-1);
+}
+
+.items3a h3{
+  margin: 30px;
+  color: var(--color-1);
+  font-size: 1.6rem;
+}
+
+.items3a p{
+  margin: 20px;
+  color: var(--color-2);
+  font-size: 1.2rem;
 }
 
 
@@ -147,7 +160,15 @@ header {
 
 .items4 {
   grid-column: 1 / 15;
-  grid-row: 24 / 30;
+  grid-row: 28 / 34;
+  background-color: var(--color-3);
+  text-align: center;
+  margin: 10px;
+}
+
+.items4 {
+  grid-column: 1 / 15;
+  grid-row: 26 / 32;
   background-color: var(--color-3);
   text-align: center;
   margin: 10px;
@@ -156,6 +177,7 @@ header {
 .items4 h2{
   font-size: 2rem;
   font-family: var(--font-2);
+  padding-bottom: 50px;
 }
 
 .project {
@@ -163,6 +185,7 @@ width: 350px;
 height: 230px;
 margin-bottom: 40px;
 border-radius: 20px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .items4a {
@@ -172,12 +195,12 @@ border-radius: 20px;
   flex-wrap: wrap;
   justify-content: space-evenly ;
   
-  
 }
 
 .items4 p{
   font-size: 1rem;
   font-weight: 600;
+  margin: 0;
 }
 
 .items4 p a{
@@ -190,41 +213,47 @@ text-decoration: none;
 color: var(--color-1);
 }
 
+/*---------------------------------------------- Line------------------*/
+
+.line{
+border-bottom:1px solid lightgrey;
+grid-column: 1 / 15;
+grid-row: 34 / 34;
+}
 
 /*---------------------------------------------- Section5------------------*/
 
-.items5 {
-  grid-column: 3 / 13;
-  grid-row: 32 / 38;
-  background-color: var(--color-3);
+
+.titleItems5 {
+  grid-column: 1 / 15;
+  grid-row: 37 / 37;
   text-align: center;
-  display: flex;
-  flex-direction: column;
 }
 
-.items5 h2{
+.items5 {
+  grid-column: 3 / 13;
+  grid-row: 38 / 46;
+  display: flex;
+
+}
+.titleItems5 h2{
   font-size: 2rem;
   font-family: var(--font-2);
   margin-bottom: 50px;
 }
 
 .stack {
-width: 150px;
-height: 150px;
+width: 175px;
+height: 175px;
 border-radius: 20px;
+margin: 20px;
 }
 
-.stackbis {
-  width: 130px;
-  height: 140px;
-  border-radius: 20px;
-  }
 
 .items5a {
-  margin: 0 auto;
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   
 }
 
