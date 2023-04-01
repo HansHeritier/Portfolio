@@ -336,7 +336,41 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
   
 }
 
+/*---------------------------------------------- Section2------------------*/
 
+.items9 {
+  grid-column: 1 / 15;
+  grid-row: 70 / 76;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-2);
+}
+
+
+.items9 h2{
+  font-family: var(--font-2);
+  font-size: 2rem;
+}
+
+.items9 p{
+  font-family: var(--font-2);
+  font-size: 1.2rem;
+  padding-bottom: 50px;
+  
+}
+
+/*---------------------------------------------- Line------------------*/
+
+.line1{
+  border-bottom:1px solid lightgrey;
+  grid-column: 1 / 15;
+  grid-row: 78 / 78;
+  }
+  
+  /*---------------------------------------------- Section10------------------*/
+  
 
 
 
