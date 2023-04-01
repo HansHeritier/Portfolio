@@ -291,7 +291,7 @@ margin: 20px;
   grid-row: 56 / 62;
   background-color: transparent;
   text-align: center;
-  margin: 10px;
+  margin: 0;
 }
 
 
@@ -304,7 +304,6 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
 }
 
 .items7a {
-  padding: 10px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -316,14 +315,14 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
 
 .items8 {
   grid-column: 2 / 14;
-  grid-row: 62 / 68;
+  grid-row: 61 / 68;
   background-color: transparent;
   text-align: center;
 }
 
 
 .iframe {
-border-radius: 20px;
+border-radius : 20px;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
@@ -336,7 +335,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
   
 }
 
-/*---------------------------------------------- Section2------------------*/
+/*---------------------------------------------- Section9------------------*/
 
 .items9 {
   grid-column: 1 / 15;
@@ -346,6 +345,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
   flex-direction: column;
   justify-content: center;
   color: var(--color-2);
+  align-items: center;
 }
 
 
@@ -366,11 +366,36 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
 .line1{
   border-bottom:1px solid lightgrey;
   grid-column: 1 / 15;
-  grid-row: 78 / 78;
+  grid-row: 77 / 77;
   }
   
   /*---------------------------------------------- Section10------------------*/
   
-
+  .items10 {
+    grid-column: 1 / 15;
+    grid-row: 73 / 80;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-2);
+    align-items: center;
+  }
+  
+  
+  .items9 h2{
+    font-family: var(--font-2);
+    font-size: 2rem;
+  }
+  
+  .items9 p{
+    font-family: var(--font-2);
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+    
+  }
+  
+  /*---------------------------------------------- Line------------------*/
+  
 
 
