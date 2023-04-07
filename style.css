@@ -109,14 +109,8 @@ header {
   font-family: var(--font-2);
   font-size: 2rem;
   width: 70vw;
-}
+  font-weight: 300;
 
-.items2 p{
-  font-family: var(--font-2);
-  font-size: 1.2rem;
-  padding-bottom: 50px;
-  width: 70vw;
-  
 }
 
 /*---------------------------------------------- Section3------------------*/
@@ -162,7 +156,7 @@ header {
   margin-top: 20px;
   margin-bottom: 20px;
   color: var(--color-2);
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 
@@ -174,9 +168,10 @@ header {
   grid-row: 26 / 32;
   background-color: var(--color-3);
   text-align: center;
+  align-content: center;
 }
 
-.items4 h2{
+.items4title h2{
   font-size: 2rem;
   font-family: var(--font-2);
   color: var(--color-4)
@@ -188,6 +183,12 @@ header {
   justify-content: space-evenly;
   height: 600px;
   width: auto;
+}
+
+.items4title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project{
@@ -244,12 +245,13 @@ header {
   justify-content: center;
 }
 
-.items4 p{
-  font-size: 1rem;
-  font-weight: 600;
+.items4title p{
+  font-size: 1.3em;
+  font-weight: 400;
   margin-bottom: 50px;
   color: var(--color-1);
   font-family: var(--font-2);
+  width: 70vw;
   }
 
 /*---------------------------------------------- Line------------------*/
@@ -481,6 +483,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 
     transition: left 0 0;
     font-family: var(--font-3);
     font-size: 1.2rem;
+    
 
   }
 
