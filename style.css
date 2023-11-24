@@ -398,7 +398,7 @@ background: -webkit-linear-gradient(90deg, #04082f,#1d3557,#4eaaf6);/* Chrome 10
 }
 
 .card {
-  width: 200px;
+  width: 220px;
   height: 130px;
   transition: all 0.4s ease;
   transform-style: preserve-3d;
@@ -408,7 +408,7 @@ background: -webkit-linear-gradient(90deg, #04082f,#1d3557,#4eaaf6);/* Chrome 10
 }
 
 .card-front {
-  width: 200px;
+  width: 220px;
   height: 130px;
   position: absolute;
   backface-visibility: hidden;
@@ -449,7 +449,7 @@ background: -webkit-linear-gradient(90deg, #04082f,#1d3557,#4eaaf6);/* Chrome 10
   position: absolute;
   backface-visibility: hidden;
   transform: rotateY(-180deg);
-  width: 200px;
+  width: 220px;
   height: 130px;
   border-radius: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
